@@ -15,7 +15,8 @@ Since we have bought a ready mad brushless dc motor and its driver that controls
   *	Speed Selector – this are three wires if you toggle the short circuit connection it gives you a 3 step variable speed.
 
 The rest of the connectors are discarded because we don’t need them, and they don’t serve the purpose of the car.
-Why do we need a micro controller?
+
+## Why do we need a micro controller?
 As mentioned above in the previous section, we had all kinds of connectors that behaves in a different manner, our problem was that it’s hard to manage with buttons especially through unlatching buttons which will confuse the rider too, further more to control lights and signaling if done alone you will need more extra circuit for flashing the lights to function the signaling and other features. In matter of power saving using bare bone provided circuit with the motor doesn’t have the function of programming to operate as required to save battery energy.
 For all of the mention above, we need a micro controller to
 *	reduce the cost of the control parts
@@ -23,13 +24,16 @@ For all of the mention above, we need a micro controller to
 *	avoid un necessary battery power consumption when not riding the car
 *	to manage breaking and ensure safety of the car drive equipment and the rider
 *	to provide Authentication to switch the car for operation “We didn’t implement it due to time constrains”
-planning & Implementation of the car control unit
+# planning & Implementation of the car control unit
 in this section I will discuss the planning of the car project and why I chose these parts and the implementation approach
-Planning
+
+## Planning
 the first part I would think of the brain (micro controller) since I am going to use it to control lights and read from break sensor, finger print sensor and it’s going to be responsible for many other simultaneous running functions.
-Choice of Microcontroller
+
+## Choice of Microcontroller
 Its sounds that I need lots of I/O pins and large memory to write code. Therefore, I choose the Arduino mega but not the original one because its lacks the number of 5 volts & ground pin counts that’s why I choose the buy a different version of Arduino mega to give me 5V and Ground connection with each and every GPIO pin, this will make it easier to make connections and compatible with may readymade sensors and servo’s too.
-Voltage Level & Current Differences
+
+## Voltage Level & Current Differences
 The issue of voltage level difference must be addressed because the microcontroller requires 5v to operate and have to control devices with different voltage levels like the motor speed controller and the lights since we are going to use the RGB led strips as lights at the same time as signals. Therefore, we have two different voltage level translators
 1.	Proximity switch voltage level converter
 2.	Relays that controls the lighting and switching the speed controller terminals
@@ -39,9 +43,9 @@ Doing this we need to achieve a neat and tidy design for easy understanding and 
 So I planned the thing to be a board control unit with latching connectors on both sides Inputs and outputs. And one main power connector 3 to 9 terminals, the relay board and finally the buck converter to step down and regulate the power to the microcontroller
 Layout
 
-Picture after implementation
+## Picture after implementation
 
-Electronic Design & Flow Chart
+# Electronic Design & Flow Chart
 
 Errors discovered after implementation
 Everything worked fine when the car was on top of the stand and testing the inputs and outputs, once we put the car on the ground for riding the following issues came up
