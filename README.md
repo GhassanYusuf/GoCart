@@ -82,6 +82,9 @@ The Arduino Code consist of three files I usually writ them in chunks to better 
 * ***gocart.ino*** - is the main program file void loop and void setup.
 * ***functions.ino*** - is the section where I create function to run to shorten the code and keep it easy to debug.
 
+## Code Display
+![](./images/arduinoCode.png)
+
 ## Download Code
 [Right Click Here - Save Link As](./attachments/gocart.zip)
 
