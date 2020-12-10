@@ -13,7 +13,7 @@ Since we have bought a ready mad brushless dc motor and its driver that controls
     *	Break – deactivates the throttle from pushing the car further if shorted, so it does not stop the car it just keeps the motor in free running until it stops.
     *	Reverse – this connector reverses the direction of the motor if shorted with low speed.
     *	Speed Selector – this are three wires if you toggle the short circuit connection it gives you a 3 step variable speed.
-    
+
 The rest of the connectors are discarded because we don’t need them, and they don’t serve the purpose of the car.
 
 ## Why do we need a micro controller?
@@ -45,7 +45,7 @@ Doing this we need to achieve a neat and tidy design for easy understanding and 
 So I planned the thing to be a board control unit with latching connectors on both sides Inputs and outputs. And one main power connector 3 to 9 terminals, the relay board and finally the buck converter to step down and regulate the power to the microcontroller.
 
 ### Layout
-![](../images/layout.png)
+![](./images/layout.png)
 
 ## Picture after implementation
 
@@ -66,6 +66,6 @@ The Arduino Code consist of three files I usually writ them in chunks to better 
 * ***gocart.ino*** - is the main program file void loop and void setup.
 * ***functions.ino*** - is the section where I create function to run to shorten the code and keep it easy to debug.
 
-[Right Click Here - Save Link As](../gocart.zip)
+[Right Click Here - Save Link As](./attachments/gocart.zip)
 
 ## Flow Chart
