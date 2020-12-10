@@ -48,6 +48,7 @@ So I planned the thing to be a board control unit with latching connectors on bo
 ![](./images/layout.png)
 
 ## Picture after implementation
+![](./images/circuit.jpg)
 
 # Electronic Design
 Errors discovered after implementation
@@ -66,6 +67,7 @@ The Arduino Code consist of three files I usually writ them in chunks to better 
 * ***gocart.ino*** - is the main program file void loop and void setup.
 * ***functions.ino*** - is the section where I create function to run to shorten the code and keep it easy to debug.
 
+## Download Code
 [Right Click Here - Save Link As](./attachments/gocart.zip)
 
 ## Flow Chart
