@@ -45,8 +45,7 @@ Layout
 
 ## Picture after implementation
 
-# Electronic Design & Flow Chart
-
+# Electronic Design
 Errors discovered after implementation
 Everything worked fine when the car was on top of the stand and testing the inputs and outputs, once we put the car on the ground for riding the following issues came up
 1.	Suddenly car is triggered for reverse drive while it was supposed to move forward
@@ -55,3 +54,14 @@ After investigation based on my experience and examples I went through when deal
 Solution
 1.	Shield the wires with aluminum foil tape to act as a shield against electromagnetic waves coming from the motor.
 2.	Added capacitors 100nF on each input line to ground so that any high frequency noise from the motor will be filtered out and tunneled to the ground.
+
+# The Arduino Code
+The Arduino Code consist of three files I usually writ them in chunks to better understand the code and keep related codes in same places.
+
+* ***header.h*** - the Header contains the pin definitions the variables and the libraries required for the code to run.
+* ***gocart.ino*** - is the main program file void loop and void setup.
+* ***functions.ino*** - is the section where I create function to run to shorten the code and keep it easy to debug.
+
+[Right Click Here - Save Link As](../gocart.zip)
+
+## Flow Chart
