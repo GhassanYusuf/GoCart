@@ -41,8 +41,16 @@ Its sounds that I need lots of I/O pins and large memory to write code. Therefor
 The issue of voltage level difference must be addressed because the microcontroller requires 5v to operate and have to control devices with different voltage levels like the motor speed controller and the lights since we are going to use the RGB led strips as lights at the same time as signals. Therefore, we have two different voltage level translators
 1.	[Proximity switch](https://www.aliexpress.com/item/32859197984.html?spm=a2g0o.productlist.0.0.15525a32map41U&algo_pvid=b6990937-f5d0-4817-8046-c2e712d89861&algo_expid=b6990937-f5d0-4817-8046-c2e712d89861-11&btsid=0bb0622c16075883405732184e0740&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) voltage level converter
 2.	[Relay Board](https://www.aliexpress.com/item/32668242465.html?spm=a2g0s.8937460.0.0.4b622e0eeHvaEL) that controls the lighting and switching the speed controller terminals, ***one of the Relays is used to latches power*** “We implemented but reverted back to manual due to time constrains”
+3. [Buck Converter](https://www.aliexpress.com/item/4000064597454.html?spm=a2g0o.productlist.0.0.5c657b1eVM7Ney&algo_pvid=ecee5444-53be-4c3c-a2a5-d37ec487a197&algo_expid=ecee5444-53be-4c3c-a2a5-d37ec487a197-0&btsid=0b0a555a16075900751332448e2ef4&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) To step down the voltage to 5 volts with high current in order to provide the relay board and the Arduino board with required current to operate.
 
-![](./images/relayboard.jpg)
+### Proximity switch
+![](./images/ProximitySwitch.jpg)
+
+### Relay Board
+![](./images/RelayBoard.jpg)
+
+### Buck Converter
+![](./images/BuckConverter.jpg)
 
 ## Implementation
 Doing this we need to achieve a neat and tidy design for easy understanding and for future maintenance, feature additions and changes. it can be considered industrial design level based on my industrial experience in Bahrain Flour Mills.
