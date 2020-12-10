@@ -34,11 +34,12 @@ the first part I would think of the brain (micro controller) since I am going to
 ## Choice of Microcontroller
 Its sounds that I need lots of I/O pins and large memory to write code. Therefore, I choose the Arduino mega but not the original one because its lacks the number of 5 volts & ground pin counts that’s why I choose the buy a different version of Arduino mega to give me 5V and Ground connection with each and every GPIO pin, this will make it easier to make connections and compatible with may readymade sensors and servo’s too.
 
+[Click Here To See The Item](https://www.aliexpress.com/item/32959605698.html?spm=a2g0s.8937460.0.0.4b622e0eeHvaEL)
+
 ## Voltage Level & Current Differences
 The issue of voltage level difference must be addressed because the microcontroller requires 5v to operate and have to control devices with different voltage levels like the motor speed controller and the lights since we are going to use the RGB led strips as lights at the same time as signals. Therefore, we have two different voltage level translators
-1.	Proximity switch voltage level converter
-2.	Relays that controls the lighting and switching the speed controller terminals
-3.	Relay that latches power “We implemented but reverted back to manual due to time constrains”
+1.	[Proximity switch](https://www.aliexpress.com/item/32859197984.html?spm=a2g0o.productlist.0.0.15525a32map41U&algo_pvid=b6990937-f5d0-4817-8046-c2e712d89861&algo_expid=b6990937-f5d0-4817-8046-c2e712d89861-11&btsid=0bb0622c16075883405732184e0740&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) voltage level converter
+2.	[8 Channel Relay Board](https://www.aliexpress.com/item/32668242465.html?spm=a2g0s.8937460.0.0.4b622e0eeHvaEL) that controls the lighting and switching the speed controller terminals, one of the Relays is used to latches power “We implemented but reverted back to manual due to time constrains”
 
 ## Implementation
 Doing this we need to achieve a neat and tidy design for easy understanding and for future maintenance, feature additions and changes. it can be considered industrial design level based on my industrial experience in Bahrain Flour Mills.
