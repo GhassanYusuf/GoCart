@@ -62,6 +62,12 @@ So I planned the thing to be a board control unit with [latching connectors](htt
 ### Electronic Board Layout
 ![](./images/layout.png)
 
+### Connectors 3 to 9 (NC-933)
+![](./images/QuickWireConnectorPctSpl.jpg)
+
+### Latching Connectors (PCT-22-12)
+![](./images/FastDockingWireConnectorsPCT.jpg)
+
 ### Picture after implementation
 ![](./images/circuit.jpg)
 
