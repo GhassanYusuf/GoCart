@@ -54,9 +54,12 @@ The issue of voltage level difference must be addressed because the microcontrol
 
 ## Implementation
 Doing this we need to achieve a neat and tidy design for easy understanding and for future maintenance, feature additions and changes. it can be considered industrial design level based on my industrial experience in Bahrain Flour Mills.
-So I planned the thing to be a board control unit with latching connectors on both sides Inputs and outputs. And one main power connector 3 to 9 terminals, the relay board and finally the buck converter to step down and regulate the power to the microcontroller.
+So I planned the thing to be a board control unit with [latching connectors](https://www.aliexpress.com/item/1005001670938151.html?spm=a2g0o.detail.1000013.5.20876d315Q7mTt&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.169870.0&scm_id=1007.13339.169870.0&scm-url=1007.13339.169870.0&pvid=cab9caac-b193-4e14-b52a-ee04c93bd0f2&_t=gps-id:pcDetailBottomMoreThisSeller,scm-url:1007.13339.169870.0,pvid:cab9caac-b193-4e14-b52a-ee04c93bd0f2,tpp_buckets:668%230%23131923%2380_668%23808%234094%23274_668%23888%233325%2316_668%232846%238114%23747_668%232717%237563%23541_668%231000022185%231000066059%230_668%233468%2315615%23661) on both sides Inputs and outputs. And one main power [connector 3 to 9 terminals](https://www.aliexpress.com/item/4001236902340.html?spm=a2g0s.8937460.0.0.6d0d2e0ex0mBDq), the relay board and finally the buck converter to step down and regulate the power to the microcontroller.
 
-### Layout
+### Steering Wheel Button Layout
+![](./images/SteeringLayout.jpeg)
+
+### Electronic Board Layout
 ![](./images/layout.png)
 
 ## Picture after implementation
