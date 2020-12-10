@@ -9,11 +9,11 @@ The electronic system of the go carts have several purposes
 4.	Minimize power consumption of the battery in the car
 Improve driving experience and safety of the car
 Since we have bought a ready mad brushless dc motor and its driver that controls the operation of the motor. First we need to identify the functions of each connector and what does it do.
-  *	Arm – this enables the controller to move the motor if shorted
-  *	Break – deactivates the throttle from pushing the car further if shorted, so it does not stop the car it just keeps the motor in free running until it stops.
-  *	Reverse – this connector reverses the direction of the motor if shorted with low speed.
-  *	Speed Selector – this are three wires if you toggle the short circuit connection it gives you a 3 step variable speed.
-
+    *	Arm – this enables the controller to move the motor if shorted
+    *	Break – deactivates the throttle from pushing the car further if shorted, so it does not stop the car it just keeps the motor in free running until it stops.
+    *	Reverse – this connector reverses the direction of the motor if shorted with low speed.
+    *	Speed Selector – this are three wires if you toggle the short circuit connection it gives you a 3 step variable speed.
+    
 The rest of the connectors are discarded because we don’t need them, and they don’t serve the purpose of the car.
 
 ## Why do we need a micro controller?
