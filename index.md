@@ -2,9 +2,9 @@
 The electronic system of the go carts have several purposes
 1.	Improve driving experience and safety of the car
 2.	Give extra functionality like a real car
-  *	control Lights
-  *	signaling for left and right
-  *	producing beep sounds for notifications
+    *	control Lights
+    *	signaling for left and right
+    *	producing beep sounds for notifications
 3.	Authentication Before Operation (Security Feature)
 4.	Minimize power consumption of the battery in the car
 Improve driving experience and safety of the car
