@@ -62,7 +62,7 @@ So I planned the thing to be a board control unit with [latching connectors](htt
 ### Electronic Board Layout
 ![](./images/layout.png)
 
-## Picture after implementation
+### Picture after implementation
 ![](./images/circuit.jpg)
 
 # Electronic Design
