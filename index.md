@@ -24,7 +24,8 @@ For all of the mention above, we need a micro controller to
 *	avoid un necessary battery power consumption when not riding the car
 *	to manage breaking and ensure safety of the car drive equipment and the rider
 *	to provide Authentication to switch the car for operation “We didn’t implement it due to time constrains”
-# planning & Implementation of the car control unit
+
+# Planning & Implementation of the car control unit
 in this section I will discuss the planning of the car project and why I chose these parts and the implementation approach
 
 ## Planning
@@ -38,10 +39,13 @@ The issue of voltage level difference must be addressed because the microcontrol
 1.	Proximity switch voltage level converter
 2.	Relays that controls the lighting and switching the speed controller terminals
 3.	Relay that latches power “We implemented but reverted back to manual due to time constrains”
-Implementation
+
+## Implementation
 Doing this we need to achieve a neat and tidy design for easy understanding and for future maintenance, feature additions and changes. it can be considered industrial design level based on my industrial experience in Bahrain Flour Mills.
-So I planned the thing to be a board control unit with latching connectors on both sides Inputs and outputs. And one main power connector 3 to 9 terminals, the relay board and finally the buck converter to step down and regulate the power to the microcontroller
-Layout
+So I planned the thing to be a board control unit with latching connectors on both sides Inputs and outputs. And one main power connector 3 to 9 terminals, the relay board and finally the buck converter to step down and regulate the power to the microcontroller.
+
+### Layout
+![](../images/layout.png)
 
 ## Picture after implementation
 
