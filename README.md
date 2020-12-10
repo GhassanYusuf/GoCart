@@ -32,11 +32,10 @@ in this section I will discuss the planning of the car project and why I chose t
 the first part I would think of the brain (micro controller) since I am going to use it to control lights and read from break sensor, finger print sensor and it’s going to be responsible for many other simultaneous running functions.
 
 ## Choice of Microcontroller
-Its sounds that I need lots of I/O pins and large memory to write code. Therefore, I choose the Arduino mega but not the original one because its lacks the number of 5 volts & ground pin counts that’s why I choose the buy a different version of Arduino mega to give me 5V and Ground connection with each and every GPIO pin, this will make it easier to make connections and compatible with may readymade sensors and servo’s too.
+Its sounds that I need lots of I/O pins and large memory to write code. Therefore, I choose the [Arduino mega](https://www.aliexpress.com/item/32959605698.html?spm=a2g0s.8937460.0.0.4b622e0eeHvaEL) but not the original one because its lacks the number of 5 volts & ground pin counts that’s why I choose the buy a different version of [Arduino mega](https://www.aliexpress.com/item/32959605698.html?spm=a2g0s.8937460.0.0.4b622e0eeHvaEL) to give me 5V and Ground connection with each and every GPIO pin, this will make it easier to make connections and compatible with may readymade sensors and servo’s too.
 
+### Arduino Image
 ![](./images/arduinoMega.jpg)
-
-[Click Here To See The Item](https://www.aliexpress.com/item/32959605698.html?spm=a2g0s.8937460.0.0.4b622e0eeHvaEL)
 
 ## Voltage Level & Current Differences
 The issue of voltage level difference must be addressed because the microcontroller requires 5v to operate and have to control devices with different voltage levels like the motor speed controller and the lights since we are going to use the RGB led strips as lights at the same time as signals. Therefore, we have two different voltage level translators
