@@ -1,6 +1,6 @@
 # Electronic system of GOCART
 
-![](./images/goCartsDisplay.png)
+![](./images/gocartsdisplay01.jpg)
 
 The electronic system of the go carts have several purposes
 1.	Improve driving experience and safety of the car
