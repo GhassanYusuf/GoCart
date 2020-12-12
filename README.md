@@ -1,7 +1,5 @@
 # Electronic system of GOCART
 
-![](./images/goCartsDisplayMain.png)
-
 ![](./images/goCartsDisplay.png)
 
 The electronic system of the go carts have several purposes
