@@ -79,7 +79,7 @@ Errors discovered after implementation
 Everything worked fine when the car was on top of the stand and testing the inputs and outputs, once we put the car on the ground for riding the following issues came up
 1.	Suddenly car is triggered for reverse drive while it was supposed to move forward
 2.	Signal Lights & Lights gets trigger by them self some times
-After investigation based on my experience and examples I went through when dealing with end stops of 3d printers that didn’t have filtering capacitors they tend to pick up motor signal noise as a logic input (electromagnetic wave have an effect wirelessly on naboring wires causes this). The source of the mull function is the motor, the wires passes close to the motor and yet there is no shielding over them which makes it easy for electromagnetic waves to penetrate the plastic and have an effect on the wires.
+After investigation based on my experience and examples I went through when dealing with end stops of 3d printers that didn’t have filtering capacitors they tend to pick up motor signal noise as a logic input (electromagnetic wave have an effect wirelessly on neighboring wires causes this). The source of the mull function is the motor, the wires passes close to the motor and yet there is no shielding over them which makes it easy for electromagnetic waves to penetrate the plastic and have an effect on the wires.
 Solution
 1.	Shield the wires with aluminum foil tape to act as a shield against electromagnetic waves coming from the motor.
 2.	Added capacitors 100nF on each input line to ground so that any high frequency noise from the motor will be filtered out and tunneled to the ground.
