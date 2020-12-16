@@ -98,3 +98,6 @@ The Arduino Code consist of three files I usually writ them in chunks to better 
 [Right Click Here - Save Link As](./attachments/gocart.zip)
 
 ## Flow Chart
+![](./images/flowchart.png)
+
+To download the flowchart in PDF format [Click Here](./attachments/gocartflowchart.pdf), to download the original flowchart diagram in Visio format [Click Here](./attachments/gocartflowchart.vsdx)
